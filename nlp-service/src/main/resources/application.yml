@@ -1,0 +1,11 @@
+server:
+  context-path: /nlp
+  port: 8070
+  rabbitmq:
+    host: localhost
+    port: 5672
+jsa:
+  rabbitmq:
+    queue: jsa.queue2
+    exchange: jsa.direct2
+    routingkey: jsa.routingkey2
